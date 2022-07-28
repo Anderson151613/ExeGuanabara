@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+
+<body>
+
+    <h1>Cadastro de Curso</h1>
+    <p><strong>Complete suas Informações</strong></p>
+
+    <form>
+
+        <FIeldset>
+            <div>
+                <label for="">Curso Desejavel:</label><BR></BR>
+                <input type="checkbox" id="Tecnologia1" name="tecnologia1" value="HTML">
+                <label for="Tecnologia1">HTMl</label>
+                <input type="checkbox" id="Tecnologia2" name="tecnologia2" value="CSS">
+                <label for="Tecnologia2">CSS</label>
+                <input type="checkbox" id="Tecnologia3" name="tecnologia3" value="JavaScript">
+                <label for="Tecnologia3">JavaScript</label>
+                <input type="checkbox" id="Tecnologia4" name="tecnologia4" value="Python">
+                <label for="Tecnologia4">Python</label>
+                <input type="checkbox" id="Tecnologia5" name="tecnologia5" value="C#">
+                <label for="Tecnologia5">C#</label>
+                <input type="checkbox" id="Tecnologia6" name="tecnologia6" value="JAVA">
+                <label for="Tecnologia6">JAVA</label>
+            </div>
+        </FIeldset>
+
+        <fieldset>
+            <div>
+                <label for="">Nome Completo:</label>
+                <input type="text" name="nome completo" placeholder="Digite seu nome aqui" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">Sexo:</label>
+                <label>
+                    <input type="radio" name="sexo" value="Masculino" required="true">Masculino
+                </label>
+                <input type="radio" name="sexo" value="Feminino" required="true">Feminino
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">Data de Nascimento:</label>
+                <input type="date" name="data" id="data" required="true">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">Contato:</label>
+                <input type="text" name="contato" placeholder="Digite seu contato aqui" required="true">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <label for="">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email aqui" required="true">
+            </div>
+        </fieldset>
+
+        <div>
+            <button type="submit">Concluido</button>
+        </div>
+        
+        
+    </form>
+    
+</body>
+</html>
