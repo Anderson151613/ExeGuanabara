@@ -1,0 +1,35 @@
+div{
+    display: inline-block;
+    background-color: bisque;
+    border: 1px solid black;  /*borda*/
+    text-align: center;         /*centralizar o texto*/
+    height: 200px;              /*altura*/
+    width: 200px;               /*largura*/
+}
+
+/*
+div#d1{
+    background-color: aquamarine;
+}
+div#d2{
+    background-color: rgb(127, 236, 255);
+}
+div#d3{
+    background-color: rgb(189, 255, 127);
+}
+*/
+
+div:hover{
+    background-color: yellow; /*Faz ficar amarelo passando o mouse por cima*/
+}
+
+
+div > p{
+    display:  none;
+}
+
+div:hover > p{
+    display: block;
+    color: rgb(5, 0, 0);
+    
+}

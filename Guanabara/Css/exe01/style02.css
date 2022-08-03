@@ -1,0 +1,30 @@
+p {
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(to right, #F2E3B6,#BCBF56,#F2E3B6 );
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;  /*Aredondar as bordas*/
+    box-shadow: 5px 5px 5px #0f2f59ad; /*Sombra nas bordas*/
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #087924;
+    text-align: center; /*Deixa o texto Centralizado*/
+    /*text-shadow:  1px 1px 2px      Posso dar Sombra ao Texto*/
+}
+
+h2 {
+    color: #126973;
+}
+
+p {
+    text-align: justify;
+}
